@@ -78,7 +78,7 @@ Person.remove({name : 'Marie'}, function(err) {
     // where removed is the count of removed documents
  });
 
- Person.find({favoriteFoods:{$in:["buritos"]}})
+ Person.find({favoriteFoods:{$in:["mbaxal saloum"]}})
  .limit(2)
  .select("-age")
  .sort({name:"asc"})
